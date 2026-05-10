@@ -18,10 +18,21 @@
     "ai-agents",
     "security",
     "observability",
+    "developer-tools",
+    "static-analysis",
+    "production-readiness",
     "cli"
   ],
-  "author": "",
+  "author": "Ravi Kiran Pagidi",
   "license": "MIT",
+  "homepage": "https://github.com/ravikiranpagidi/mcp-doctor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravikiranpagidi/mcp-doctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ravikiranpagidi/mcp-doctor/issues"
+  },
   "engines": {
     "node": ">=18"
   },
