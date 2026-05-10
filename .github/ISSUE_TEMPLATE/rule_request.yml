@@ -1,0 +1,24 @@
+name: Rule request
+description: Propose a new scanner rule.
+title: "[Rule]: "
+labels: ["rule idea"]
+body:
+  - type: input
+    id: rule-name
+    attributes:
+      label: Rule idea
+      placeholder: "Example: detect missing OAuth scopes"
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: What risk or gap should this catch?
+      description: Explain why this matters for MCP servers.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples
+      description: Share code snippets, projects, or false positives to consider.

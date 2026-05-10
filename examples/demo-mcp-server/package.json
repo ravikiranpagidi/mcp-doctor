@@ -1,0 +1,7 @@
+{
+  "name": "demo-mcp-server",
+  "version": "0.0.0",
+  "description": "Small demo MCP server fixture for MCP Doctor.",
+  "type": "module",
+  "keywords": ["mcp", "model-context-protocol"]
+}

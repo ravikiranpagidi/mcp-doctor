@@ -1,0 +1,35 @@
+{
+  "name": "mcp-doctor",
+  "version": "0.1.0",
+  "description": "A friendly production-readiness scanner for Model Context Protocol servers.",
+  "type": "module",
+  "bin": {
+    "mcp-doctor": "./bin/mcp-doctor.js"
+  },
+  "scripts": {
+    "start": "node ./bin/mcp-doctor.js scan .",
+    "test": "node --test",
+    "scan:example": "node ./bin/mcp-doctor.js scan ./examples/demo-mcp-server",
+    "list-rules": "node ./bin/mcp-doctor.js --list-rules"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "security",
+    "observability",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ]
+}
